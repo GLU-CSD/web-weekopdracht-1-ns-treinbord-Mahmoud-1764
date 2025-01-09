@@ -1,117 +1,103 @@
-#container {
-  width: 936px;
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  border: 2px solid #000;
-  margin-left:123px;
-  margin-top:148px;
-  opacity:1;
-}
-
-#left {
-  width: 240px;
-  background-color: #f2f2f2;
-  height: 335px;
-  border: 2px solid #000;
-}
-
-#middle {
-  width: 568px;
-  height: 339px;
-  background-color: rgb(0, 0, 106);
-  padding: 35px;
-  box-sizing: border-box;
-  border: 2px solid #000;
-  position:relative;
-}
-
-#right {
-  width: 128px;
-  height: 335px;
-  background-color: rgb(0, 0, 106);
-  border: 2px solid #000;
-}
-
-#wittevierkantrechts {
-  width: 96px;
-  height: 96px;
-  background-color: white;
-  margin-left: 16px;
-  margin-top: 34px;
-  position:relative;
-}
-
-#blauwvierkantrechts {
-  width: 20px;
-  height: 20px;
-  background-color: rgb(0, 0, 106);
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
-
-#wit_vierkant_spoor{
-    color: rgb(0, 0, 106);
-    font-size:12px;
-    position:absolute;
-    top:6px;
-    left:27px;
-}
-#wit_vierkant_18{
-    color: rgb(0, 0, 106);
-    font-size:64px;
-    font-weight: bold;
-    position:absolute;
-    top:27px;
-    left:3px;
-}
-#wit_vierkant_b{
-    color: rgb(0, 0, 106);
-    font-size:32px;
-    position:absolute;
-    font-weight: bold;
-    top:34px;
-    left: 71px;;
-}
-
-body{
-    background-image:url("../img/treinbord.webp");
-}
-
-#middle_white_Box{
+  #container{
+    width: 936px;
+    display: flex;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #000;
+  }
+  #left{
+    width: 240px;
+    background-color: #f2f2f2;
+    height: 335px;
+    border: 2px solid #000;
+  }
+  #middle {
+    width: 568px;
+    height: 339px;
+    background-color: rgb(0, 0, 106);
+    padding: 35px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+  }
+  #right{
+    width:128px;
+    height: 335px;
+    background-color: rgb(0, 0, 106);
+    border: 2px solid #000;
+  }
+  #Wite_block{
+    background-color: white;
     height: 240px;
     width: 480px;
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start; 
+  }
+
+  #tijd{
+    background-color: rgb(255, 255, 255);
+    width: 245px;
+    height: 40px;
+  }
+  #tijd_text{
+    color: rgb(0, 0, 106); ;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  #Intercity{
+    background-color: blue;
+    width: 235px;
+    height: 40px;
+  }
+  #groene_block{
+    background-color: rgb(0, 255, 0);
+    width: 480px;
+    height: 175px;
+  }
+  #tijd_info{
+    background-color: red;
+    width: 480px;
+    height: 25px;
+  }
+
+  #nummer_Box{
     background-color: white;
-    position:absolute;
-}
+    width: 96px;
+    height: 96px;
+    margin-top: 30px;
+    margin-left: 15px;
+    position: relative
+  }
 
-#spoor_Time_Number{
-    color: rgb(0, 0, 106);
-    font-size:40px;
-    font-weight: bold;
-    position: relative;
-    left: 15px;
-}
-#spoor_Time{
-    color: rgb(0, 0, 106);
-    font-size:30px;
-    position: relative;
-    left: 45px;
-    top: -35px;
+  #blue_blok{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+  }
 
-}
-#Intercity{
+  #number{
     color: rgb(0, 0, 106);
-    font-size:35px;
+    font-size: 48px ;
     font-weight: bold;
-    position: relative;
-    left: 250px;
-    top: -70px;
-}
+    margin-left: 15px;
+    margin-top: 20px;
+  }
 
-#Heerlen{
-    color: rgb(0, 0, 106);
-    font-size:35px;
+  #spoor{
+    font-size: 15px;
     font-weight: bold;
-    position: relative;
-}
+    margin-left: 25px;
+    margin-top: -20px;
+  }
+  #b{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 70px;
+    top: 35px;
+  }
+
+
+
