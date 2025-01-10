@@ -58,6 +58,7 @@
     background-color: rgb(255, 255, 255);
     width: 235px;
     height: 40px;
+    position: relative;
   }
 
   #info {
@@ -152,4 +153,61 @@
     left: 20px;
     top: 3px;
   }
+  #ns_logo{
+    height: 30px;
+    width: 90px;
+    position: absolute;
+    left: 140px;
+    top: 10px;
+  }
+  #clock {
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 50%;
+    margin: 20px auto;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
   
+#point{
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50px;
+  position: absolute;
+  left: 96px;
+  top: 97px;
+}
+
+#hour-hand {
+  width: 3px;
+  height: 80px;
+  position: absolute;
+  top: 20px;
+  left: 98px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#minute-hand {
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  top: 98px;
+  left: 40px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.marker {
+  width: 10px;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+  top: 135%;
+  left: 50%;
+  transform-origin: 0px -170px; /* Verplaatst de markeringen verder naar buiten */
+  border-radius: 20px;
+}
